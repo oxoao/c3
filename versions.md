@@ -5,6 +5,7 @@ Original Crysis 3 was made for Windows 8 and older. For fps drops/low GPU/CPU us
 
 ## Known remaster changes:
 ### Superficial
+* 64bit executable
 * Fov menu option (and `cl_fov` now changes both sprint and stationary fov)
 * New optional graphics settings (ray traced reflections)
 * Higher minimum graphics settings (texture res option for only high or very high, lod higher even on low)
@@ -24,5 +25,6 @@ Original Crysis 3 was made for Windows 8 and older. For fps drops/low GPU/CPU us
 * Intro cutscene changes (start of m5 loads immediately without waiting for text, possibly due to bugfixes with intro cutscenes. bug of shooting/performing other actions during cutscenes is fixed)
 * M5 dialogue/trigger to activate ramp at the end is a few seconds faster (possibly due to a softlock fix, only affects glitchless)
 * Bug fix where items would not be held in hands properly when loading a save holding an item
+* All missions and difficulties are unlocked on a fresh save profile (perhaps QoL to make it easier to benchmark levels). This should probably not be allowed to be exploited for categories like 100% since the game typically requires completing these difficulties as criteria for 100%, and skipping the difficulty requirement would trivialise it.
 <br>
 All mechanics and speedrun tech seem otherwise unchanged, and overall the changes are minor. Various performance related problems are fixed for newer hardware and windows versions.
