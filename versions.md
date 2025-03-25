@@ -13,17 +13,16 @@ Original Crysis 3 was made for Windows 8 and older. For fps drops/low GPU/CPU us
 * Grass (and potentially other entities?) run at higher animation rate
 * Loading cutscenes no longer immediately show a prompt to skip them (makes retiming potentially harder)
 * Changes to console commands available and console locked by default (use `con_restricted 0`)
-* Origin/EA drm removed (now steam drm)
+* Origin/EA drm removed (now steam drm). PAK files and other game data no longer encrypted.
 * Newly accessible console commands (e.g. god mode, infinite ammo, cannot be used for runs. be careful when using console commands as they may persist on save profile even after restart)
-* Slower loads
+* Slower initial loads, faster subsequent ones on restart mission
 * All languages are accessible by default (original version typically installs 1 localization based on region and does not allow changing, though these can be added manually. crack version has all localizations)
 * Hacking keybind not changing properly bug re-introduced?
 ### Gameplay changes
 * Extra object detail in some places (m1 pipe oob, m3 nexus area) due to the higher minimum lod (same as playing on high or very high object detail on original. does not currently lose any time)
 * New menu options for reload checkpoint and restart level (seems superficial but may have unknown benefit)
-* Seemingly tweaked enemy ai/stats? (alpha ceph 1st cycle no longer works with 1 electric arrow?)
+* Possibly tweaked enemy ai/stats?
 * Intro cutscene changes (start of m5 loads immediately without waiting for text, possibly due to bugfixes with intro cutscenes. bug of shooting/performing other actions during cutscenes is fixed)
-* M5 dialogue/trigger to activate ramp at the end is a few seconds faster (possibly due to a softlock fix, only affects glitchless)
 * Bug fix where items would not be held in hands properly when loading a save holding an item
 * All missions and difficulties are unlocked on a fresh save profile (perhaps QoL to make it easier to benchmark levels). This should probably not be allowed to be exploited for categories like 100% since the game typically requires completing these difficulties as criteria for 100%, and skipping the difficulty requirement would trivialise it.
 <br>
